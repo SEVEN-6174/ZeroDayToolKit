@@ -33,20 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>libs\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx.Core, Version=6.0.0.423, Culture=neutral, PublicKeyToken=null">
-      <HintPath>libs\BepInEx.Core.dll</HintPath>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\BepInEx\core\BepInEx.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx.Hacknet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>libs\BepInEx.Hacknet.dll</HintPath>
+    <Reference Include="BepInEx.Hacknet">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\BepInEx\core\BepInEx.Hacknet.dll</HintPath>
     </Reference>
-    <Reference Include="FNA, Version=17.2.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>libs\FNA.dll</HintPath>
+    <Reference Include="FNA">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\FNA.dll</HintPath>
     </Reference>
-    <Reference Include="Hacknet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>libs\HacknetPathfinder.exe</HintPath>
+    <Reference Include="Hacknet">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\Hacknet.exe</HintPath>
+    </Reference>
+    <Reference Include="HacknetPathfinder">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\HacknetPathfinder.exe</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
       <HintPath>libs\Mono.Cecil.dll</HintPath>
@@ -57,9 +60,8 @@
     <Reference Include="MonoMod.Utils, Version=21.9.19.1, Culture=neutral, PublicKeyToken=null">
       <HintPath>libs\MonoMod.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="PathfinderAPI, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\PathfinderAPI.dll</HintPath>
+    <Reference Include="PathfinderAPI">
+      <HintPath>..\..\SteamLibrary\steamapps\common\Hacknet\BepInEx\plugins\PathfinderAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -14,7 +14,7 @@ namespace ZeroDayToolKit.Commands
         public static void Add(string name, Action<OS, string[]> handler, string usage, string description)
         {
             BetterHelp.Add(name, usage, description);
-            CommandManager.RegisterCommand(name, handler);
+            CommandManager.RegisterCommand(name, handler,false); // 默认值为true会导致重新编译时抛出异常
         }
     }
 }
